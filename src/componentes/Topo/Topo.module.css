@@ -1,0 +1,13 @@
+.header{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-around;
+    height: 13vh;
+    align-items: center;
+}
+.link a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+}
