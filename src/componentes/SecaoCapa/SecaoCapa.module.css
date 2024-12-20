@@ -1,6 +1,7 @@
 .image{
     width: 100%;
     height: auto;
+    position: relative;
 }
 .sectionCapa{
     display: flex;
@@ -23,4 +24,20 @@
 .h1{
     font-size: 2.7rem;
     font-weight: 600;
+}
+@media(min-width: 300px) and (max-width: 480px){
+    .sectionContent{
+        top: 20px;
+        left: 39px;
+        width: 30vw;
+        margin-bottom: 30px;
+    }
+    .sectionContent p{
+        font-size: 0.6rem;
+        margin: 10px 0 10px 0;
+        overflow: hidden;
+    }
+    .sectionContent h1{
+        font-size: 0.9rem;
+    }
 }

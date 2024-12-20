@@ -11,6 +11,7 @@ export default function Topo(){
                     alt="Logo"
                     width={160}
                     height={40}
+                    className={styles.image}
                 />
             </div>
             <div className={styles.link}>

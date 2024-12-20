@@ -114,4 +114,18 @@
     margin: 0 0 30px -30px;
 
 }
-
+@media(min-width: 300px) and (max-width: 480px){
+    .footer{
+        padding: 40px;
+    }
+    .card{
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .direitos{
+        padding: 0;
+    }
+}

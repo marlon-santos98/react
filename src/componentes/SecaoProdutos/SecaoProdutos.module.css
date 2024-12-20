@@ -49,3 +49,8 @@
     margin-bottom: 50px;
 }
 
+@media(min-width: 300px) and (max-width: 480px){
+    .section{
+        padding: 40px;
+    }
+}
