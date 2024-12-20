@@ -1,0 +1,117 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.footer{
+    width: 100%;
+    background-color: #05031B;
+}
+.h2{
+    margin: 40px 0 20px 0;
+}
+.p{
+    margin-bottom: 30px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 60px;
+    margin: 0 0 80px 0;
+}
+.card p{
+    margin: 0 0 10px 0;
+}
+.direitos{
+    padding: 30px;
+    background-color: black;
+}
+.p1{
+    position: relative;
+}
+.p1::before{
+    content: "";
+    background-image: url('/local.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    left: -28px;
+    top: 0px;
+}
+.p2{
+    position: relative;
+}
+.p2::before{
+    content: "";
+    background-image: url('/telefone.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    left: -28px;
+    top: 0px;
+}
+.p3{
+    position: relative;
+}
+.p3::before{
+    content: "";
+    background-image: url('/email.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    left: -28px;
+    top: 0px;
+}
+.p4{
+    position: relative;
+}
+.p4::before{
+    content: "";
+    background-image: url('/tt.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    left: -28px;
+    top: 0px;
+}
+.p5{
+    position: relative;
+}
+.p5::before{
+    content: "";
+    background-image: url('/fb.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    left: -28px;
+    top: 0px;
+}
+.p6{
+    position: relative;
+}
+.p6::before{
+    content: "";
+    background-image: url('/ig.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    left: -28px;
+    top: 0px;
+}
+.h3{
+    margin-left: 140px;
+    margin: 0 0 30px -30px;
+
+}
+
